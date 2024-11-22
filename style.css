@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.navbar{
+    font-family: calibri;
+    background-color: rgba(249, 250, 255, 0.275);
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo a{
+    font-size: 45px;
+    color: rgb(11, 12, 101);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+/* ............. */
+
+.nav-div li a:hover{
+    color: rgba(255, 255, 0, 0.448);
+    
+}
+/* .................. */
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+button{
+    background-color: rgba(5, 3, 31, 0.671);
+    margin-left: 10px;
+    font-size: 18px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+button a{
+    color: white;
+}
+
+/* ....... */
+button:hover a{
+    color:yellow;
+}
+/* ....... */
+
+/* footer */
+footer .bottom-footer{
+    height:40px;
+    width: 100%;
+    background-color: rgb(17, 32, 61);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    
+}
+
+footer .bottom-footer2{
+    height:40px;
+    width: 100%;
+    background-color: rgb(17, 32, 61);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    
+}
+
+footer p{
+    color:white;
+}
+
+/* main */
+
+main{
+    width: 100vw;
+    height:100vh;
+    background-image: url(nat4.jpg);
+    /* border-image-width: 0px; */
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+ .line{
+    width: 150px;
+    background-color: red;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 6vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ... */
+section{
+    width: 100%;
+    /* background-color: red; */
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color:rgb(95, 14, 111);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+   
+    
+    align-items: center;
+
+    margin-right: 100px;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: rgb(95, 14, 111);;
+    margin: 20px auto;
+}
+
+p{
+    color: #6b6969;
+    padding: 0px 40px ;
+}
+
+body , html{
+    overflow-x: hidden ;
+}
